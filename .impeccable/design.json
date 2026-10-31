@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T18:49:33.824Z",
+  "title": "Design System: Jose Santana Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Terminal Ground",
+        "tonalRamp": [
+          "oklch(15% 0.009 215)",
+          "oklch(25% 0.014 215)",
+          "oklch(36% 0.018 215)",
+          "oklch(48% 0.020 215)",
+          "oklch(60% 0.019 215)",
+          "oklch(72% 0.015 215)",
+          "oklch(84% 0.010 215)",
+          "oklch(95% 0.003 215)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Raised Terminal Surface",
+        "tonalRamp": [
+          "oklch(15% 0.011 214)",
+          "oklch(25% 0.018 214)",
+          "oklch(36% 0.023 214)",
+          "oklch(48% 0.025 214)",
+          "oklch(60% 0.024 214)",
+          "oklch(72% 0.019 214)",
+          "oklch(84% 0.012 214)",
+          "oklch(95% 0.004 214)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Reading Ink",
+        "tonalRamp": [
+          "oklch(15% 0.007 171)",
+          "oklch(25% 0.011 171)",
+          "oklch(36% 0.014 171)",
+          "oklch(48% 0.015 171)",
+          "oklch(60% 0.014 171)",
+          "oklch(72% 0.012 171)",
+          "oklch(84% 0.007 171)",
+          "oklch(95% 0.002 171)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Metadata",
+        "tonalRamp": [
+          "oklch(15% 0.009 204)",
+          "oklch(25% 0.014 204)",
+          "oklch(36% 0.018 204)",
+          "oklch(48% 0.020 204)",
+          "oklch(60% 0.019 204)",
+          "oklch(72% 0.015 204)",
+          "oklch(84% 0.010 204)",
+          "oklch(95% 0.003 204)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Structural Rule",
+        "tonalRamp": [
+          "oklch(15% 0.016 214)",
+          "oklch(25% 0.025 214)",
+          "oklch(36% 0.032 214)",
+          "oklch(48% 0.035 214)",
+          "oklch(60% 0.033 214)",
+          "oklch(72% 0.027 214)",
+          "oklch(84% 0.017 214)",
+          "oklch(95% 0.005 214)"
+        ]
+      },
+      "cyan": {
+        "role": "primary",
+        "displayName": "Signal Cyan",
+        "tonalRamp": [
+          "oklch(15% 0.059 174)",
+          "oklch(25% 0.092 174)",
+          "oklch(36% 0.118 174)",
+          "oklch(48% 0.130 174)",
+          "oklch(60% 0.124 174)",
+          "oklch(72% 0.100 174)",
+          "oklch(84% 0.063 174)",
+          "oklch(95% 0.020 174)"
+        ]
+      },
+      "acid": {
+        "role": "secondary",
+        "displayName": "Acid Yellow",
+        "tonalRamp": [
+          "oklch(15% 0.073 115)",
+          "oklch(25% 0.113 115)",
+          "oklch(36% 0.145 115)",
+          "oklch(48% 0.160 115)",
+          "oklch(60% 0.152 115)",
+          "oklch(72% 0.123 115)",
+          "oklch(84% 0.077 115)",
+          "oklch(95% 0.025 115)"
+        ]
+      },
+      "warm": {
+        "role": "tertiary",
+        "displayName": "Warm Apricot",
+        "tonalRamp": [
+          "oklch(15% 0.050 60)",
+          "oklch(25% 0.078 60)",
+          "oklch(36% 0.100 60)",
+          "oklch(48% 0.110 60)",
+          "oklch(60% 0.105 60)",
+          "oklch(72% 0.085 60)",
+          "oklch(84% 0.053 60)",
+          "oklch(95% 0.017 60)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Control Ink",
+        "tonalRamp": [
+          "oklch(15% 0.007 140)",
+          "oklch(25% 0.011 140)",
+          "oklch(36% 0.014 140)",
+          "oklch(48% 0.015 140)",
+          "oklch(60% 0.014 140)",
+          "oklch(72% 0.012 140)",
+          "oklch(84% 0.007 140)",
+          "oklch(95% 0.002 140)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Stacked Display",
+        "purpose": "The uppercase hero name."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Large section headings with balanced wraps."
+      },
+      "title": {
+        "displayName": "Project Title",
+        "purpose": "Project names within the ledger."
+      },
+      "body": {
+        "displayName": "Reading Voice",
+        "purpose": "Clear mixed-case descriptions and supporting prose."
+      },
+      "label": {
+        "displayName": "Terminal Label",
+        "purpose": "Technical inventories, metadata, filters, and captions."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "expressive-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Control transforms and content entry."
+      },
+      {
+        "name": "color-transition",
+        "value": "180ms ease",
+        "purpose": "Interactive color and background changes."
+      },
+      {
+        "name": "control-transform",
+        "value": "200ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Primary-action hover and activation movement."
+      },
+      {
+        "name": "monogram-float",
+        "value": "7s ease-in-out infinite; translateY(0) → translateY(-9px) → translateY(0)",
+        "purpose": "Optional gentle movement of the hero ASCII monogram."
+      },
+      {
+        "name": "cursor-pulse",
+        "value": "1.5s steps(2,end) infinite",
+        "purpose": "Optional underscore cursor blink."
+      },
+      {
+        "name": "content-entry",
+        "value": "700ms cubic-bezier(.16,1,.3,1); translateY(22px), opacity .7 → translateY(0), opacity 1",
+        "purpose": "Once-only viewport entry; hero name uses 800ms and introductory elements 1000ms."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "small-phone",
+        "value": "380px"
+      },
+      {
+        "name": "two-row-navigation",
+        "value": "499px"
+      },
+      {
+        "name": "compact-tablet-start",
+        "value": "500px"
+      },
+      {
+        "name": "single-column",
+        "value": "760px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "maximum-display",
+        "value": "1600px"
+      }
+    ],
+    "notes": {
+      "extraction": "Extracted from dist/index.html, dist/styles.css, and dist/app.js. No browser review performed by this documentation pass.",
+      "tonalRamps": "Synthesized OKLCH ramps are panel exploration metadata, not additional shipping color tokens.",
+      "reducedMotion": "prefers-reduced-motion disables animations, transitions, and smooth scrolling. The pause control pauses animations; essential content does not depend on motion.",
+      "responsive": "The ASCII monogram remains present. Navigation occupies two rows at 499px and below. Readable metadata is at least 13px."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acid-filled action with a clipped lower-right corner.",
+      "html": "<a class=\"ds-primary\" href=\"#work\">Explore my work <svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:24px;background:var(--acid,#e5fb6a);color:var(--dark-ink,#101610);padding:16px 24px;min-height:56px;font:700 16px/1.6 var(--display, 'Space Grotesk', sans-serif);text-decoration:none;white-space:nowrap;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%);transition:background-color .18s ease,transform .2s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-primary svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:miter}.ds-primary:hover{background:var(--cyan,#73f5dc);transform:translateY(-3px)}.ds-primary:active{transform:translateY(2px)}.ds-primary:focus-visible{outline:3px solid var(--cyan,#73f5dc);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Open secondary action with a muted file-type label.",
+      "html": "<a class=\"ds-text-link\" href=\"assets/Jose-Santana-Resume.pdf\" download>Download resume <span class=\"ds-file-kind\">PDF</span></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:12px;min-height:44px;color:var(--ink,#e8efed);font:400 15px/1.6 var(--display, 'Space Grotesk', sans-serif);text-decoration:none;text-underline-offset:6px;transition:color .18s ease}.ds-file-kind{font:400 13px/1.6 var(--mono, 'Maple Mono', monospace);color:var(--muted,#a6b6b8)}.ds-text-link:hover{color:var(--cyan,#73f5dc);text-decoration:underline}.ds-text-link:focus-visible{outline:3px solid var(--cyan,#73f5dc);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-text-link{transition:none}}"
+    },
+    {
+      "name": "Contact Copy Action",
+      "kind": "button",
+      "refersTo": "copy-button",
+      "description": "Outlined control on the acid contact field; the real page progressively enables clipboard behavior.",
+      "html": "<div class=\"ds-contact-sample\"><button class=\"ds-copy\" type=\"button\">Copy email <svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" rx=\"1\"/><path d=\"M16 8V4H4v12h4\"/></svg></button></div>",
+      "css": ".ds-contact-sample{background:var(--acid,#e5fb6a);padding:24px}.ds-copy{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;background:transparent;color:var(--dark-ink,#101610);border:1px solid currentColor;border-radius:0;padding:10px 16px;font:400 14px/1.6 var(--display, 'Space Grotesk', sans-serif);cursor:pointer;transition:color .18s ease,background-color .18s ease,transform .2s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-copy svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:miter}.ds-copy:hover{background:var(--dark-ink,#101610);color:var(--acid,#e5fb6a)}.ds-copy:focus-visible{outline:3px solid var(--dark-ink,#101610);outline-offset:6px}.ds-copy:active{transform:translateY(2px)}.ds-copy:disabled{cursor:wait}@media(prefers-reduced-motion:reduce){.ds-copy{transition:none}}"
+    },
+    {
+      "name": "Focus Filters",
+      "kind": "chip",
+      "refersTo": "focus-filter",
+      "description": "Square outlined filters; cyan identifies the selected state.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Filter projects by focus\"><button type=\"button\" aria-pressed=\"true\">All work</button><button type=\"button\" aria-pressed=\"false\">Software</button><button type=\"button\" aria-pressed=\"false\">Hardware</button><button type=\"button\" aria-pressed=\"false\">Infrastructure</button></div>",
+      "css": ".ds-filters{display:flex;flex-wrap:wrap;gap:8px}.ds-filters button{min-height:44px;font:400 13px/1.6 var(--mono, 'Maple Mono', monospace);padding:10px 14px;border:1px solid var(--line,#2d4248);border-radius:0;background:var(--ground,#080d10);color:var(--muted,#a6b6b8);cursor:pointer;transition:color .18s ease,background-color .18s ease,transform .2s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-filters button[aria-pressed=true]{background:var(--cyan,#73f5dc);border-color:var(--cyan,#73f5dc);color:var(--dark-ink,#101610)}.ds-filters button:hover{border-color:var(--cyan,#73f5dc);color:var(--ink,#e8efed)}.ds-filters button[aria-pressed=true]:hover{color:var(--dark-ink,#101610)}.ds-filters button:focus-visible{outline:3px solid var(--cyan,#73f5dc);outline-offset:6px}.ds-filters button:active{transform:translateY(2px)}@media(prefers-reduced-motion:reduce){.ds-filters button{transition:none}}"
+    },
+    {
+      "name": "Section Navigation",
+      "kind": "nav",
+      "description": "Visible section anchors with cyan wordmark and an acid contact cue.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-wordmark\" href=\"#main\" aria-label=\"Jose Santana, back to top\">[ js_ ]</a><nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#work\">Work</a><a href=\"#experience\">Experience</a><a href=\"#about\">About</a><a href=\"#contact\">Contact</a></nav></header>",
+      "css": ".ds-header{display:flex;align-items:center;justify-content:space-between;min-height:100px;gap:24px;color:var(--ink,#e8efed)}.ds-wordmark{font:400 24px/1.6 var(--mono, 'Maple Mono', monospace);color:var(--cyan,#73f5dc);white-space:nowrap;text-decoration:none}.ds-nav{display:flex;align-items:center;gap:36px;font:400 15px/1.6 var(--display, 'Space Grotesk', sans-serif)}.ds-nav a{color:inherit;min-width:44px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none;transition:color .18s ease}.ds-nav a:last-child{color:var(--acid,#e5fb6a)}.ds-nav a:hover,.ds-wordmark:hover{color:var(--cyan,#73f5dc)}.ds-nav a:focus-visible{outline:3px solid var(--cyan,#73f5dc);outline-offset:6px}.ds-wordmark:focus-visible{outline:3px solid var(--cyan,#73f5dc);outline-offset:6px}@media(max-width:760px){.ds-header{min-height:88px;gap:12px}.ds-wordmark{font-size:21px}.ds-nav{gap:18px;font-size:13px}}@media(max-width:499px){.ds-header{flex-wrap:wrap}.ds-wordmark{width:100%}.ds-nav{width:100%;justify-content:space-between;gap:8px}}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
+    },
+    {
+      "name": "Build Disclosure",
+      "kind": "custom",
+      "description": "Native details preserve project depth without obscuring the summary.",
+      "html": "<details class=\"ds-details\"><summary>Inside the build <span class=\"ds-expand\" aria-hidden=\"true\">+</span></summary><div class=\"ds-detail-copy\"><p>Router, service, and CRUD layers separate business rules from HTTP handling and database access. Four normalized entities use SQLModel and Alembic migrations.</p></div></details>",
+      "css": ".ds-details{font:400 15px/1.6 var(--display, 'Space Grotesk', sans-serif);color:var(--ink,#e8efed)}.ds-details summary{display:flex;align-items:center;gap:18px;cursor:pointer;min-height:44px;list-style:none;width:fit-content;transition:color .18s ease}.ds-details summary::-webkit-details-marker{display:none}.ds-details summary:hover{color:var(--cyan,#73f5dc)}.ds-details summary:focus-visible{outline:3px solid var(--cyan,#73f5dc);outline-offset:6px}.ds-expand{font:400 22px/1.6 var(--mono, 'Maple Mono', monospace);color:var(--cyan,#73f5dc)}.ds-details[open] .ds-expand{transform:rotate(45deg)}.ds-detail-copy{max-width:57ch;font-size:16px;color:var(--muted,#a6b6b8);padding-top:14px}.ds-detail-copy p{margin:0}@media(prefers-reduced-motion:reduce){.ds-details summary{transition:none}}"
+    },
+    {
+      "name": "ASCII System Panel",
+      "kind": "custom",
+      "refersTo": "ascii-panel",
+      "description": "Authored text imagery on a tonal surface with an explanatory caption.",
+      "html": "<figure class=\"ds-ascii-panel\"><pre aria-hidden=\"true\" translate=\"no\">       +-----------------+\n       |    PROXMOX VE   |\n       +--------+--------+\n                |\n       +--------+--------+\n       |                 |\n   +---+---+         +---+---+\n   | 2 VMs |         | 5 CTs |\n   +-------+         +-------+\n\n        PI-HOLE + NEXTCLOUD</pre><figcaption>Self-hosted infrastructure <span>7 workloads</span></figcaption></figure>",
+      "css": ".ds-ascii-panel{margin:0;min-width:0;display:flex;flex-direction:column;justify-content:center;background:var(--surface,#10191d);color:var(--cyan,#73f5dc);padding:22px 14px 0;overflow:hidden}.ds-ascii-panel pre{margin:0;font:400 clamp(8px,.95vw,14px)/1.35 var(--mono, 'Maple Mono', monospace);align-self:center;white-space:pre;letter-spacing:0;user-select:none}.ds-ascii-panel figcaption{border-top:1px solid var(--line,#2d4248);margin-top:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;padding:18px 10px;color:var(--muted,#a6b6b8);font:400 13px/1.6 var(--mono, 'Maple Mono', monospace)}@media(max-width:760px){.ds-ascii-panel{min-height:260px;padding-top:18px}.ds-ascii-panel pre{font-size:clamp(9px,2.5vw,13px)}.ds-ascii-panel figcaption{margin-top:auto}}"
+    },
+    {
+      "name": "Technology Inventory",
+      "kind": "custom",
+      "description": "Wrapping cyan text labels without capsule decoration.",
+      "html": "<ul class=\"ds-tech-list\" aria-label=\"Inventory API technologies\"><li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>Docker</li></ul>",
+      "css": ".ds-tech-list{display:flex;flex-wrap:wrap;gap:6px 18px;margin:20px 0 0;padding:0;list-style:none;font:400 13px/1.6 var(--mono, 'Maple Mono', monospace);color:var(--cyan,#73f5dc)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A typographic terminal atlas",
+    "overview": "Large, tightly set names and headings share the page with authored ASCII artwork and readable descriptions. The character is technical, direct, and personal: letterforms carry the identity, and each diagram points to a real system Jose built.\n\nThe user's explicit ASCII + cyberpunk direction governs the palette, terminal lettering, angular forms, fine dividing rules, and text artwork. These are intentional visual commitments. Keep the main reading voice clear and the terminal voice concentrated in artwork, metadata, and controls.",
+    "keyCharacteristics": [
+      "Oversized grotesk headings with compact spacing.",
+      "Monospaced ASCII imagery and concise technical labels.",
+      "Dark tonal regions with cyan, acid-yellow, and a restrained warm accent.",
+      "Flat, square geometry with a clipped primary action.",
+      "Native disclosures, optional motion, and content available without JavaScript."
+    ],
+    "rules": [
+      {
+        "name": "The Contrast Pair Rule",
+        "body": "Bright cyan and acid fills take Dark Control Ink. The dark canvas takes Reading Ink or Quiet Metadata; do not use muted dark rules as body text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Real Text Rule",
+        "body": "ASCII illustrations remain actual preformatted text with a meaningful surrounding label or caption. Hide decorative glyph strings from assistive technology; retain useful explanatory text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Preserve tonal separation and fine rules when adding a surface. A shadow is not the current system's elevation language.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the user's ASCII + cyberpunk identity, including monospace, fine rules, and real text artwork.",
+      "Do pair large expressive headings with readable mixed-case descriptions.",
+      "Do carry the cyan and acid contrast pairs into new controls and focus states.",
+      "Do keep project content readable without scripts and use native elements for navigation and disclosures.",
+      "Do preserve motion controls, reduced-motion support, and explanatory captions for artwork."
+    ],
+    "donts": [
+      "Don't replace authored diagrams with stock photos or fabricated project screenshots.",
+      "Don't add rounded card grids, glow, or shadow layers as though they were incumbent patterns.",
+      "Don't make every paragraph monospace or use tiny metadata as the main reading voice.",
+      "Don't turn warm diagram color into an unexplained action or status color.",
+      "Don't turn unverified claims, dates, or live-status indicators into visual decoration."
+    ]
+  }
+}
